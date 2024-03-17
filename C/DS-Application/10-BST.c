@@ -97,7 +97,7 @@ void main()
         case 1:
             printf("\nEnter N value: ");
             scanf("%d", &n);
-            printf("\nEnter the values to create BST like(6,9,5,2,8,15,24,14,7,8,5,2)\n");
+            printf("\nEnter the values to create BST :\n");
             for (i = 0; i < n; i++)
             {
                 scanf("%d", &data);

@@ -88,7 +88,7 @@ void CQ_Display()
         {
             printf("%c\t", CQ[i]);
         }
-        printf("%c\t", CQ[i]);
+        printf("%c\t", CQ[rear]);
     }
 }
 

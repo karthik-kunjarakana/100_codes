@@ -40,7 +40,7 @@ void read(struct Day* day)
     printf("Enter the date of the day: ");
     scanf("%d", &day->date);
     printf("Enter the activity for the day: ");
-    scanf(" %[^\n]s", day->activity);
+    scanf(" %s", day->activity);
 }
 
 // Function to display the calendar

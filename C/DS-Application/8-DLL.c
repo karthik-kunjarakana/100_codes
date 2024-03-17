@@ -18,9 +18,7 @@ struct Enode *tail, *temp1, *temp2;
 
 void create(char[], char[], char[], char[], int, long long int);
 void ins_beg(char[], char[], char[], char[], int, long long int);
-void ins_end(char[], char[], char[], char[], int, long long int);
 void del_beg();
-void del_end();
 void display();
 
 void main()
@@ -30,7 +28,7 @@ void main()
     int sal;
     long long int p;
 
-    printf("1.Create\n2.Display\n3.Insert at beginning\n4.Insert at End\n5.Delete at begining\n6.Delete at End\n7.Exit\n");
+    printf("1.Create\n2.Display\n3.Insert at beginning\n4.Delete at begining\n5.Exit\n");
 
     while (1)
     {
@@ -53,17 +51,9 @@ void main()
             ins_beg(s, n, dpt, des, sal, p);
             break;
         case 4:
-            printf("Enter the required data(Emp no,Name,Dept,Desig,sal,phone\n");
-            scanf("%s%s%s%s%d%lld", s, n, dpt, des, &sal, &p);
-            ins_end(s, n, dpt, des, sal, p);
-            break;
-        case 5:
             del_beg();
             break;
-        case 6:
-            del_end();
-            break;
-        case 7:
+        case 5:
             exit(0);
         }
     }
