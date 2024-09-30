@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<head>
+<title>Time Table</title>
+<style>
+
+body{
+	font-family:Arial,sans-serif;
+	}
+	table{
+	width:80%;
+	margin:20px auto;
+	border-collapse:collapse;
+	}
+	th,
+	td{
+	border:1px solid #add;
+	padding:8px;
+	text-align:center;
+	}
+	th{
+	background-color:#f4f4f4;
+	color:#333;
+	}
+	tr:nth-child(even){
+	background-color:#f9f9f9;
+	}
+	tr:nth-child(odd){
+	background-color:#e6f7ff;
+	}
+	
+	.lab-hour{
+	background-color:#ffcccc;
+	
+	}
+	.elective-hour{
+	background-color:#ccffcc;
+	}
+	.highlight{
+	font-weight:bold;
+	color:#d63384;
+	}
+	
+	tfoot{
+	backgroud-color:#e0e0e0;
+	font-weight:bold;}
+	</style>
+	</head>
+	
+	<body>
+	<h1 style="text-align:center;">Time table</h1>
+	<table>
+	<thead>
+	<tr>
+	<th colspan="2"> DEPT:CSE </th>
+	<th colspan="1"> SEM:V </th>
+	<th colspan="1"> DIV:A </th>
+	<th colspan="2"> ROOM NO:210 </th>
+	<th colspan="2"> BRANCH: CSE </th>
+	<th colspan="2"> VERSION: 2 </th>
+	</tr>
+	<tr>
+	<th>Day/Time</th>
+	<th>I<br>9:00-9:55</th>
+	<th>II<br>9:55-10:50</th>
+	<th>TEA BREAK</th>
+	<th>III<br>11:10-12:05</th>
+	<th>IV<br>12:05-1:00</th>
+	<th>LUNCH BREAK</th>
+	<th>V<br>2:00-2:55</th>
+	<th>VI<br>2:55-3:50</th>
+	<th>VII<br>3:50-4:45</th>
+	</th>
+	</thead>
+	<tbody>
+	
+	<tr>
+	<td>Day 1</td>
+	<td class="elective-hour">USP(LAC)<br>/AI(SM)</td>
+	<td>TC(AAM)</td>
+	<td rowspan="6"class="highlight">TEA BREAK</td>
+	<td class="lab-hour"colspan=2>SKILL LAB<br>(PKG+SA)</d>
+	<td rowspan="6"class="highlight">LUNCH BREAK</td>
+	<td class="lab-hour"colspan=2>WEB LAB<br>A1&A2(JBK+AAM)<br>CN LAB<br>A3&A4(RPC+UP)</td>
+	<td></td>
+	</tr>
+	
+	<tr>
+	<td>Day 2</td>
+	<td class="elective-hour">USP(LAC)<br>/AI(SM)</td>
+	<td>CN(RPC)</td>
+	<td>TC(AAM)</td>
+	<td>SEPM(NKH)</td>
+	<td class="lab-hour"colspan=2>WEB LAB<br>A3&A4(JBK+AAM)<br>CN LAB<br>A1&A2(RPC+UP)</td>
+	<td></td>
+	</tr>
+	
+	<tr>
+	<td>Day 3</td>
+	<td>CN(RPC)</td>
+	<td class="elective-hour">USP(LAC)<br>/AI(SM)</td>
+	<td>SEPM(NKH)</td>
+	<td>CN(RPC)</td>
+	<td class="lab-hour"colspan="2">MINI PROJECT<br>(PKP)</td>
+	<td></td>
+	</tr>
+	
+	<tr>
+	<td>Day 4</td>
+	<td>RMR(SA)</td>
+	
+	<td>ES(RJS)</td>
+	
+	<td>RMR(SA)</td>
+	
+	<td class="elective-hour">NSS/SPORTS</td>
+	<td class="lab-hour"colspan="2">MINI PROJECT<br>(PKP)</td>
+	<td></td>
+	
+	</tr>
+	
+	<tr>
+	<td>Day 5</td>
+	<td class="elective-hour">USP(LAC)<br>/AI(SM)</td>
+	<td>SEPM(NKH)</td>
+	<td>TC(AAM)</td>
+	<td>RMR(SA)</td>
+	<td>CN(RPC)</td>
+	<td>ES(RJS)</td>
+	<td class="lab-hour"colspan="1">PLACEMENT LAB<br>(JBK+SK)</td>
+	
+	</tr>
+	
+	<tr>
+	<td>Day 6</td>
+	<td>TC(AAM)</td>
+	<td>SEPM(NKH)</td>
+	<td>TC(AAM)</td>
+	<td>RMR(SA)</td>
+	<td>LIBRARY</td>
+	<td></td>
+	<td></td>
+	</tr>
+	
+	</tbody>
+	<tfoot>
+	<tr>
+	<td colspan="10">End of Time Table </td>
+	</tr>
+	</tfoot>
+	</table>
+	</body>
+	</html>
+	</tr>
