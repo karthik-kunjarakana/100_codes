@@ -4,10 +4,10 @@ I'm practicing here, and you'll find codes of all kinds. This repository contain
 
 ## Table of Contents
 
-- [C](100_codes\C)
-- [C++](100_codes\C++)
-- [Python](100_codes\Python)
-- [Java](100_codes\Java)
+- [C](C)
+- [C++](C++)
+- [Python](Python)
+- [Java](Java)
 
 Feel free to contribute by submitting your own code examples or improvements!
 
