@@ -1,4 +1,5 @@
-// This program checks if a given string is a palindrome or not.
+package StringPlay;
+
 public class Palindrome {
 public static void main(String[] args) {
 	//StringBuilder + reverse() method
