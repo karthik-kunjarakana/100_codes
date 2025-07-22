@@ -7,7 +7,7 @@ I'm practicing here, and you'll find codes of all kinds. This repository contain
 - [C](C)
 - [C++](C++)
 - [Python](Python)
-- [Java](Java)
+- [Java](   Java)
 
 Feel free to contribute by submitting your own code examples or improvements!
 
